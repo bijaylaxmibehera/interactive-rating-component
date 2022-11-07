@@ -33,15 +33,9 @@ body {
     min-height: 100vh;
 }
 
-.rating-card {
+.rating-card,.thank-you-card {
     background-color: var(--dark-blue);
-    width: 450px;
-    padding: 30px;
-}
-
-.thank-you-card {
-    background-color: var(--dark-blue);
-    width: 450px;
+    width: 400px;
     padding: 30px;
 }
 
@@ -173,4 +167,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  @media only screen and (max-width:425px){
+    .rating-card,.thank-you-card{
+        width: 293px;
+        margin: 45px;
+    }
   }

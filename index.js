@@ -6,7 +6,8 @@ const actualRating = document.querySelector("#rating");
 
 ratings.forEach((rating) => {
     rating.addEventListener("click", () => {
-        actualRating.innerHTML = rating.innerHTML
+        // actualRating.innerHTML = `You selected ${rating.innerHTML} out of 5`
+        actualRating.innerHTML =rating.innerHTML;
     })
 })
 
